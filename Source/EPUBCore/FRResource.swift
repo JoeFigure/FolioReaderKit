@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FRResource: NSObject {
+open class FRResource: NSObject {
     var id: String!
     var properties: String?
     var href: String!

@@ -14,7 +14,7 @@ open class FRBook: NSObject {
     var metadata = FRMetadata()
     var spine = FRSpine()
     var smils = FRSmils()
-    var tableOfContents: [FRTocReference]!
+    open var tableOfContents: [FRTocReference]!
     var flatTableOfContents: [FRTocReference]!
     var opfResource: FRResource!
     var tocResource: FRResource?
